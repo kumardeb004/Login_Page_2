@@ -1,0 +1,41 @@
+body{
+  background:linear-gradient(to right, #445566, #ff00cc);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+
+.login-card-container {
+
+width: 350px;
+background: rgba(202, 161, 161, 0.5);
+padding: 1cm;
+border-radius: 25px;
+position: relative;
+}
+
+
+.login-card-container::before{
+
+content: '';
+position: absolute;
+background: rgba(202, 161, 161, 0.5);
+inset: 0;
+transform: rotate(-5deg);
+z-index: -1;
+border-radius: 25px;
+}
+
+
+.login-card-logo{
+
+  margin-bottom: 1cm;
+}
+
+
+.login-card-logo img{
+  width: 80px;
+}
